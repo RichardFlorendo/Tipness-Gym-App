@@ -14,7 +14,7 @@ using TipnessAndroid;
 
 namespace NavigationDrawerStarter.Fragments
 {
-    public class ListMembers : Fragment
+    public class ListEmployee : Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -26,7 +26,7 @@ namespace NavigationDrawerStarter.Fragments
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
-            return inflater.Inflate(Resource.Layout.listmembers, container, false);
+            return inflater.Inflate(Resource.Layout.listemployee, container, false);
         }
     }
 }
